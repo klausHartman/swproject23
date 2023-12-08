@@ -1,0 +1,9 @@
+______Error: Bio-embeddings wants a fasta file where sequences are not redundant.
+Solution: $ conda install -c bioconda cd-hit
+$ cd-hit -i VOG00001.faa -o VOG00001_CDHIT.faa
+$ bio_embeddings config.yml --overwrite (bio-embeddings does not overwrite per default)
+
+______Error: Hardware (GPU) not sufficient to compute.
+"2023-12-08 19:23:59,976 ERROR RuntimeError for sequence with 930 residues: CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.. This most likely means that you don't have enough GPU RAM to embed a protein this long."

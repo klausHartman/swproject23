@@ -1,0 +1,16 @@
+global:
+  sequences_file: VOG00001_CDHIT.faa
+  prefix: VOG1_output
+bert_embeddings:
+  type: embed
+  protocol: prottrans_bert_bfd
+  reduce: True
+tsne_projections:
+  type: project
+  protocol: tsne
+  depends_on: bert_embeddings
+plotly_visualization:
+  type: visualize
+  protocol: plotly
+  depends_on: tsne_projections
+  # annotation_file: annotation_file.csv
