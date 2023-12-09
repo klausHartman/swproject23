@@ -7,3 +7,5 @@ ______Error: Hardware (GPU) not sufficient to compute.
 "2023-12-08 19:23:59,976 ERROR RuntimeError for sequence with 930 residues: CUDA error: no kernel image is available for execution on the device
 CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
 For debugging consider passing CUDA_LAUNCH_BLOCKING=1.. This most likely means that you don't have enough GPU RAM to embed a protein this long."
+
+Embedding might be computed using CPU (which works but takes longer)
