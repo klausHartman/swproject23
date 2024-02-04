@@ -14,4 +14,9 @@ def split_protein_ids(ids):
 df['ProteinIDList'] = df['ProteinIDs'].apply(split_protein_ids)
 
 # Display the updated DataFrame with the new column
-print(df['ProteinIDList'][5])
+print(df['ProteinIDList'])
+
+# checking, if the length of the newly generated List in 'ProteinIDList' matches the value of column 'ProteinCount' in the original dataframe:
+for idx, row in df.iterrows():
+    print("column `ProteinCount`: {} -> len of `ProteinIDList`: {}".format(df.iloc[idx]["ProteinCount"], len(df.iloc[idx]["ProteinIDList"])))
+# print(len(df.iloc[0]["ProteinIDList"]))
