@@ -35,6 +35,13 @@ The project includes:
 
 - creation of a python environment using venv or Conda
 
+### Installation notes
+
+This program was developed for Linux machines with GPU capabilities and [CUDA](https://developer.nvidia.com/cuda-zone) installed. If your setup diverges from this, you may encounter some inconsistencies (e.g. speed is significantly affected by the absence of a GPU and CUDA). 
+
+For Windows users, we strongly recommend the use of [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
+
+
 ## Dependencies
 
 we have recognized a major dependency of the used frameworks (ProtTrans, SeqVec and bio_embeddings) on the python version used, and the required libraries like torch, allennlp, h5py and so on. 
@@ -49,7 +56,7 @@ The benchmarks between the 3 different frameworks for embedding are mentioned in
  - ProtTransBertBFDEmbedder()
  - SeqVecEmbedder()
  
- on `VOG00024.faa` sequences
+ as a 'PoC' (proof of concept) and for runtime reasons we used it only on the `VOG00024.faa` sequence of the VOGDB [FASTA-Files ](https://www.ncbi.nlm.nih.gov/genbank/fastaformat/)
 
  ## Dimensionality reduction
 
