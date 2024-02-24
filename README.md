@@ -41,7 +41,6 @@ This program was developed for Linux machines with GPU capabilities and [CUDA](h
 
 For Windows users, we strongly recommend the use of [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
 
-
 ## Dependencies
 
 we have recognized a major dependency of the used frameworks (ProtTrans, SeqVec and bio_embeddings) on the python version used, and the required libraries like torch, allennlp, h5py and so on. 
