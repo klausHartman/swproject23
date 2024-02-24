@@ -1,4 +1,4 @@
-# Softwareproject Bioinformatics (WS2023/24) -  Sequence Embedding for Shallow Learners
+# Softwareproject Bioinformatics -  Sequence Embedding for Shallow Learners
 Researchgroup Bioinformatics and Computational Biology @ University of Vienna
 
 [Softwareproject for Bioinformatics](https://ufind.univie.ac.at/de/course.html?lv=053531&semester=2023W 
@@ -37,5 +37,7 @@ The project includes:
 
 ## Dependencies
 
-we have recognized a major dependency of the used frameworks (ProtTrans, SeqVec and bio_embeddings) on the python version used, and the required libraries like torch, allennlp, h5py and so on.
+we have recognized a major dependency of the used frameworks (ProtTrans, SeqVec and bio_embeddings) on the python version used, and the required libraries like torch, allennlp, h5py and so on. 
+
+also, it is strongly recommended to run the program on a  [CUDA](https://developer.nvidia.com/cuda-zone) capable environment.
 
