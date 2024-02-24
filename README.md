@@ -39,5 +39,28 @@ The project includes:
 
 we have recognized a major dependency of the used frameworks (ProtTrans, SeqVec and bio_embeddings) on the python version used, and the required libraries like torch, allennlp, h5py and so on. 
 
-also, it is strongly recommended to run the program on a  [CUDA](https://developer.nvidia.com/cuda-zone) capable environment.
+It is strongly recommended to run the program on a  [CUDA](https://developer.nvidia.com/cuda-zone) capable environment.
 
+The benchmarks between the 3 different frameworks for embedding are mentioned in the paper [Survey of Protein Sequence Embedding Models](mdpi.com/1422-0067/24/4/3775)
+
+## What model is a good one?
+
+ We were using the `bio_embeddings` library with following embedders:
+ - ProtTransBertBFDEmbedder()
+ - SeqVecEmbedder()
+ 
+ on `VOG00024.faa` sequences
+
+ ## Dimensionality reduction
+
+ We used two different algorithms for dimensionality reduction with the aim, to visualise the embeddings:
+ - tSNE
+ - UMAP
+
+For a detailled view on the steps of the process, you can take a look at our [`jupyter notebook file of the project`](https://github.com/klausHartman/swproject23/blob/main/SPNotebook.ipynb)
+
+## Contributors
+
+- Alexander Pfunder
+- Fabio Pfähler
+- Klaus Hartmann-Baruffi
