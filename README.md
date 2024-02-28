@@ -33,7 +33,17 @@ The project includes:
  
 ## Installation
 
-- creation of a python environment using venv or Conda
+- installation of a jre (java runtime environment), at least version 11 for nextflow:
+-   `sudo apt install default-jre`
+
+- creation of a python environment using venv or Conda:
+-   `conda create --name myenv python=3.8`
+-   
+     `Conda activate myenv`
+
+- installation of nextflow: (https://github.com/nextflow-io/nextflow)
+-   `pip install nextflow` (installed nextflow-23.10.1)
+
 
 ### Installation notes
 
