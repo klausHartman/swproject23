@@ -71,7 +71,6 @@ The benchmarks between the 3 different frameworks for embedding are mentioned in
 
  We used two different algorithms for dimensionality reduction with the aim, to visualise the embeddings:
  - tSNE
- - UMAP
 
 For a detailled view on the steps of the process, you can take a look at our [`jupyter notebook file of the project`](https://github.com/klausHartman/swproject23/blob/main/SPNotebook.ipynb)
 
