@@ -2,7 +2,7 @@
 Researchgroup Bioinformatics and Computational Biology @ University of Vienna
 
 [Softwareproject for Bioinformatics](https://ufind.univie.ac.at/de/course.html?lv=053531&semester=2023W 
-) by Fabio Pfähler and Klaus Hartmann-Baruffi
+) by Fabio Pfaehler and Klaus Hartmann-Baruffi
 
 Supervisor: [Prof.Dr.Thomas Rattei](mailto:thomas.rattei@univie.ac.at), [Dr.Alexander Pfundner](alexander.pfundner@univie.ac.at)
 
@@ -33,7 +33,17 @@ The project includes:
  
 ## Installation
 
-- creation of a python environment using venv or Conda
+- installation of a jre (java runtime environment), at least version 11 for nextflow:
+-   `sudo apt install default-jre`
+
+- creation of a python environment using venv or Conda:
+-   `conda create --name myenv python=3.8`
+-   
+     `Conda activate myenv`
+
+- installation of nextflow: (https://github.com/nextflow-io/nextflow)
+-   `pip install nextflow` (installed nextflow-23.10.1)
+
 
 ### Installation notes
 
@@ -61,12 +71,11 @@ The benchmarks between the 3 different frameworks for embedding are mentioned in
 
  We used two different algorithms for dimensionality reduction with the aim, to visualise the embeddings:
  - tSNE
- - UMAP
 
 For a detailled view on the steps of the process, you can take a look at our [`jupyter notebook file of the project`](https://github.com/klausHartman/swproject23/blob/main/SPNotebook.ipynb)
 
 ## Contributors
 
 - Alexander Pfunder
-- Fabio Pfähler
+- Fabio Pfaehler
 - Klaus Hartmann-Baruffi
