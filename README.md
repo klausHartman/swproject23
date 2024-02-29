@@ -2,7 +2,7 @@
 Researchgroup Bioinformatics and Computational Biology @ University of Vienna
 
 [Softwareproject for Bioinformatics](https://ufind.univie.ac.at/de/course.html?lv=053531&semester=2023W 
-) by Fabio Pfähler and Klaus Hartmann-Baruffi
+) by Fabio Pfaehler and Klaus Hartmann-Baruffi
 
 Supervisor: [Prof.Dr.Thomas Rattei](mailto:thomas.rattei@univie.ac.at), [Dr.Alexander Pfundner](alexander.pfundner@univie.ac.at)
 
