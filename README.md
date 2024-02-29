@@ -77,5 +77,5 @@ For a detailled view on the steps of the process, you can take a look at our [`j
 ## Contributors
 
 - Alexander Pfunder
-- Fabio Pfähler
+- Fabio Pfaehler
 - Klaus Hartmann-Baruffi
